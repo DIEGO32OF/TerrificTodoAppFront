@@ -1,25 +1,25 @@
 # TodoList
 
-Este proyecto usa [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+This project uses [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
 
-## Servidor de desarrollo
+## Development Server
 
-Tpara iniciar el servidor local, run:
+To start the local server, run:
 
 ```bash
 ng serve
 ```
 
-Una vez el servidor esta corriendo, abrir el navegador en: `http://localhost:4200/`.
+Once the server is running, open the browser at: `http://localhost:4200/`.
 
-## Descripcion del proyecto
+## Project Description
 
-este proyecto es una aplicacion "Todo" orientada a componentes `standalone` esto significa que ya no se usan los modulos o al menos en las nuevas versiones (17) se incluye y una breve documentación:
+This project is a "Todo" application oriented to `standalone` components, this means that modules are no longer used or at least in the new versions (17) here a brief documentation:
 [standalone-components](https://v17.angular.io/guide/standalone-components)
 
-## otras caracteristicas
+## Other features
 
-- se incluyo **PM2**, para el continuo funcionamiento de la app
-- Tambien contiene su **dockerfile** y su archivo **Yaml** con **GNIX** para el deploy continuo
-- Se utilizo la libreria de **Jest** para pruebas unitarias
-- En local se configuro su respectivo **Eslinter** y **Prittier**
+- **PM2** was included, for the continuous operation of the app
+- It also contains its **dockerfile** and its **Yaml** file with **GNIX** for continuous deployment
+- The **Jest** library was used for unit tests
+- Locally, its respective **Eslinter** and **Prittier** were configured
